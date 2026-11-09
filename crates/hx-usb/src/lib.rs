@@ -1757,3 +1757,6 @@ mod tests {
         assert_eq!(checksum(&[1, 0, 0, 0, 9]), 1);
     }
 }
+
+#[cfg(test)]
+mod reconciliation_tests;
